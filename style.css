@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+header > img{
+    height: 65px;
+    padding-right: 100px;
+}
+
+header > nav{
+    display: flex;
+    gap: 30px;
+}
+
+.link{
+    font-family: 'Sarala';
+    color: rgba(255, 242, 231, 1);
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.link:hover{
+    color: rgb(39, 37, 37);
+}
+
+main{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(236, 214, 196, 1);
+    font-size: 24px;
+    padding: 10px;
+}
+
+h1#font{
+    font-family: Righteous;
+    color: rgba(236, 214, 196, 1);
+    font-weight: 400;
+    font-size: 79px;
+}
+
+main > section > div > p{
+    padding: 30px 10px 30px 5px;
+}
+
+main > section > div > button{
+    background: rgba(236, 214, 196, 1);
+    font-family: 'Sarala';
+    font-size: 16px;
+    width: 140px;
+    height: 60px;
+    margin-left: 3px;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+aside > h3{
+    font-family: 'Sarala';
+    color: rgba(255, 242, 231, 1);
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    border-top: 0.4px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 295px;
+    top: 576px;
+    left: 822px;
+
+}
+aside > p{
+    font-family: 'Sarala';
+    color: rgba(236, 214, 196, 1);
+    font-size: 18px;
+    align-items: center;
+    padding: 24px;
+    text-align: center;
+}
+
+footer{
+    border-top: 0.4px solid white;
+    padding-top: 50px;
+}
+
+footer > img{
+    height: 45px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
